@@ -5,3 +5,8 @@
   border-bottom: 12px;
   margin-bottom: 12px;
 }
+.quizBtn {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
