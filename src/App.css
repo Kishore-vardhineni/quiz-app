@@ -1,12 +1,24 @@
+
 .alignLeft {
   text-align: left;
   border: 1px solid;
   padding: 2px;
-  border-bottom: 12px;
   margin-bottom: 12px;
+  margin-left: 5px;
+  word-break: break-all;
 }
 .quizBtn {
   background-color: blue;
   color: white;
   padding: 5px;
+}
+
+.questionExplnation {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-alignment {
+  padding-top: 10px;
+  padding-left: 15px;
 }

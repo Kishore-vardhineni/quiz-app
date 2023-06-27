@@ -1,7 +1,7 @@
 import './App.css';
 import Question from './Question.json';
 import Display from './Display';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 function App() {
   let tempMarks = [];
@@ -20,7 +20,7 @@ function App() {
             )
          })}
          <br/>&nbsp;
-         <button className="quizBtn" onClick={() => alert(marks.reduce((a,b) => a+b))}>End Quiz</button>
+         <button className="quizBtn" onClick={() => alert(marks.reduce((a,b) => a+b, 0) + '/10')}>End Quiz</button>
          <br/>
          <br/>
        </center>
